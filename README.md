@@ -1,9 +1,9 @@
-TITLE 
+TITLE : 
 An Automated deep learning-based soil moisture estimates using Markov Optimal Multispectral Retrieval and Soil Moisture Active Passive observations.
 
 
 
-DESCRIPTION
+DESCRIPTION : 
 This automated soil moisture estimation framework integrates satellite data, geospatial processing, probabilistic modeling, and deep learning. 
 The process begins with data acquisition, where SMAP satellite observations, multispectral imagery (e.g., MODIS, Sentinel-2), and ground-truth moisture readings are collected. 
 Preprocessing includes aligning spatial grids, resampling data, extracting vegetation and surface features (e.g., NDVI, LST), and applying normalization. 
@@ -14,7 +14,7 @@ Finally, predictions are deployed for real-time estimation and are evaluated aga
 
 
 
-DATASET INFORMATION
+DATASET INFORMATION :
 The dataset employed in this research originates from NASA’s Soil Moisture Active Passive (SMAP) mission, which provides global-scale observations of soil moisture using a combination of passive microwave radiometry and active radar sensing. 
 The SMAP dataset captures volumetric soil moisture content at various depths and across diverse geographic regions, offering crucial insights into surface hydrological conditions. 
 It includes temporally and spatially rich measurements with high accuracy, making it ideal for deep learning-based modeling. The dataset is extensively used for climate modeling, drought monitoring, agricultural planning, and environmental management. 
@@ -23,7 +23,7 @@ The dataset is further enhanced with auxiliary multispectral imagery (e.g., vege
 
 
 
-STEP-BY-STEP ALGORITHM FOR AUTOMATED DEEP LEARNING BASED SOIL MOISTURE ESTIMATION
+STEP-BY-STEP ALGORITHM FOR AUTOMATED DEEP LEARNING BASED SOIL MOISTURE ESTIMATION :
 Step 1: Data Acquisition
 Obtain Soil Moisture Active Passive (SMAP) satellite observations (L-band radiometer & radar data).
 Collect Multispectral Data from sources like MODIS, Sentinel-2, or Landsat.
@@ -59,7 +59,7 @@ Compare with classical retrieval methods (e.g., Soil Water Balance models).
 
 
 
-CODE IMPLEMENTATION
+CODE IMPLEMENTATION :
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -270,7 +270,7 @@ for (i in 1:length(dates)){
 
 
 
-REQUIREMENTS
+REQUIREMENTS :
 This section offers an extensive presentation summary and the experimental data of our proposed method. 
 In this work, we trained Super Generative Adversarial Networks (SGANs) for soil sample identification using version 6.1.1 of the Deep Learning GPU Training System (DIGITS), created by NVIDIA Corporation, based in Santa Clara, California. 
 A 64-bit Ubuntu 16.04 workstation with an NVIDIA GeForce GTX 1660 Ti GPU was used for the experimentation. 
@@ -280,7 +280,7 @@ We then utilized the Caffe backend of DIGITS to manage the training of the soil 
 
 
 
-CITATION
+CITATION :
 https://www.kaggle.com/datasets/amirmohammdjalili/soil-moisture-dataset
 
 
